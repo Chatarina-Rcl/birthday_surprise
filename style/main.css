@@ -41,15 +41,15 @@ body {
   font-size: 3rem;
 }
 
-/* .four {
+.four {
   max-height: 60vh; 
-  overflow-y: auto;
+  overflow-y: auto !important;
   padding: 1rem;
   position: relative;
   margin: 0 auto;
-} */
+}
 
-.four .text-box {
+.text-box {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -265,7 +265,7 @@ body {
     width: 90%;
   }
 
-  .four .text-box {
+  .text-box {
     width: 90%;
   }
 
